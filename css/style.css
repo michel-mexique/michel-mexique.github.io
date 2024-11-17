@@ -1,0 +1,70 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url('https://fonts.googleapis.com/css?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+a {
+	text-decoration: none;
+}
+
+.toplink {
+	color: black;
+	transition: color 0.2s;
+	text-decoration: none;
+}
+
+.toplink:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.pangolin {
+	font-family: 'Pangolin', sans-serif;
+}
+
+.montserrat {
+	font-family: 'Montserrat';
+}
+
+.navbar {
+	background-color: transparent;
+}
+
+.navbar-brand {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	/*transform: translate(-50%, -50%);*/
+	
+}
+
+.content {
+	margin-top: 100px; /* Adjust as needed */
+}
+
+/*#boutons {
+    background: linear-gradient(0deg, black, rgba(0, 0, 0, 0) 100%) no-repeat;
+}*/
+
+.navbar i {
+      font-size: 20px;
+      color: black;
+}
+/*
+p {
+	display: flex;
+	align-items: flex-end;
+	height: 450px;
+	align-text: center;
+ }
+*/
+.table-bordered tbody td,
+
+.table-bordered thead th {
+    border: 1px solid white;
+		border-collapse: separate;
+  	border-spacing: 15px;
+}
+
+.table-bordered thead th {
+    color: #fff;
+}
