@@ -1,72 +1,32 @@
 {
-    "albums": [
-      {
-        "titre": "Au revoir",
-        "cover_image": "paroles/covers/aurevoir.jpg",
-        "chansons": [
-          {
-            "titre": "Au revoir",
-            "paroles": "Au revoir, j'ai déjà hâte de te revoir
-Va-t-en, c'est le temps x2
-
-Je sens en moi le vertige du temps qui nous sépare
-Tu me quittes, je me brise, c'est un nouveau départ
-Je dois réapprendre à vivre quand tu n'es pas là
-Je dois réapprendre à respirer sans toi
-
-Au revoir, j'ai déjà hâte de te revoir
-Va-t-en, c'est le temps x2
-
-Il me reste encore mille choses à te dire
-L'idée de ton absence me remplit de désirs
-De te serrer dans mes bras vraiment très très fort
-De t'embrasser dans le cou comme si
-
-Comme si on ne se reverrait pas, comme si on ne se reverrait pas
-
-Plus c't'intense, plus la déchirure est enivrante
-J't'en prie faisons ça doux, j'veux filer bien quand je rentre chez moi
-
-Est-ce que tu vas venir me voir chez moi
-J'aimerais ça que tu restes encore un peu
-Non, non, non
-Je ne veux pas te mettre en retard
-
-Au revoir, j'ai déjà hâte de te revoir
-Va-t-en, c'est le temps x2
-
-Mais qu'est-ce que tu fais encore dans mon cadre de porte
-Je t'aime, je t'aime, je t'aime, je t'aime, mais là il faut tu que j'te sorte
-Les au revoirs me lassent quand ils durent trop longtemps
-Va-t-en, va-t-en, va-t-en
-
-Au revoir, j'ai déjà hâte de te revoir x2
-
-Je garde en moi le plaisir de notre amour épars
-Déjà nos moments fleurissent en idées et en art
-Ce soir dans mes rêves tu me prendras dans tes bras …
-Et je vais me réveiller le soleil au ventre"
-          },
-          {
-            "titre": "Song 2",
-            "paroles": "Lyrics of Song 2."
-          }
-        ]
-      },
-      {
-        "titre": "Album 2",
-        "cover_image": "https://via.placeholder.com/400x300",
-        "chansons": [
-          {
-            "titre": "Song A",
-            "paroles": "Lyrics of Song A."
-          },
-          {
-            "titre": "Song B",
-            "paroles": "Lyrics of Song B."
-          }
-        ]
-      }
-    ]
-  }
-  
+  "albums": [
+    {
+      "titre": "Au revoir",
+      "cover_image": "paroles/covers/aurevoir.jpg",
+      "chansons": [
+        {
+          "titre": "Au revoir",
+          "paroles": "Au revoir, j'ai déjà hâte de te revoir\nVa-t-en, c'est le temps x2\n\nJe sens en moi le vertige du temps qui nous sépare\nTu me quittes, je me brise, c'est un nouveau départ\nJe dois réapprendre à vivre quand tu n'es pas là\nJe dois réapprendre à respirer sans toi\n\nAu revoir, j'ai déjà hâte de te revoir\nVa-t-en, c'est le temps x2\n\nIl me reste encore mille choses à te dire\nL'idée de ton absence me remplit de désirs\nDe te serrer dans mes bras vraiment très très fort\nDe t'embrasser dans le cou comme si\n\nComme si on ne se reverrait pas, comme si on ne se reverrait pas\n\nPlus c't'intense, plus la déchirure est enivrante\nJ't'en prie faisons ça doux, j'veux filer bien quand je rentre chez moi\n\nEst-ce que tu vas venir me voir chez moi\nJ'aimerais ça que tu restes encore un peu\nNon, non, non\nJe ne veux pas te mettre en retard\n\nAu revoir, j'ai déjà hâte de te revoir\nVa-t-en, c'est le temps x2\n\nMais qu'est-ce que tu fais encore dans mon cadre de porte\nJe t'aime, je t'aime, je t'aime, je t'aime, mais là il faut tu que j'te sorte\nLes au revoirs me lassent quand ils durent trop longtemps\nVa-t-en, va-t-en, va-t-en\n\nAu revoir, j'ai déjà hâte de te revoir x2\n\nJe garde en moi le plaisir de notre amour épars\nDéjà nos moments fleurissent en idées et en art\nCe soir dans mes rêves tu me prendras dans tes bras …\nEt je vais me réveiller le soleil au ventre"
+        },
+        {
+          "titre": "Song 2",
+          "paroles": "Lyrics of Song 2."
+        }
+      ]
+    },
+    {
+      "titre": "Album 2",
+      "cover_image": "https://via.placeholder.com/400x300",
+      "chansons": [
+        {
+          "titre": "Song A",
+          "paroles": "Lyrics of Song A."
+        },
+        {
+          "titre": "Song B",
+          "paroles": "Lyrics of Song B."
+        }
+      ]
+    }
+  ]
+}
