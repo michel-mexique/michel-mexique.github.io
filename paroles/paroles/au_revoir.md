@@ -14,7 +14,8 @@ L'idée de ton absence me remplit de désirs\
 De te serrer dans mes bras vraiment très très fort\
 De t'embrasser dans le cou comme si
 
-Comme si on ne se reverrait pas,\ comme si on ne se reverrait pas
+Comme si on ne se reverrait pas,
+comme si on ne se reverrait pas
 
 Plus c't'intense, plus la déchirure est enivrante\
 J't'en prie faisons ça doux, j'veux filer bien quand je rentre chez moi
