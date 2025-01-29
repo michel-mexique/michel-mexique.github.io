@@ -22,6 +22,10 @@
         {
           "titre": "Racines",
           "paroles": "textes/douceur/racines.md"
+        },
+        {
+          "titre": "Guérison",
+          "paroles": "textes/douceur/guerison.md"
         }
       ]
     }
