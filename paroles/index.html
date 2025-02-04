@@ -52,85 +52,40 @@
 
 <body>  
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-between px-5 py-3" id="navbar">
-      <!-- Add your navigation links here -->
-          <div  class="mobile-navbar" hidden>
-              <a href="/" class="pangolin toplink text-light px-2 h3">accueil</a>
-              <a href="spectacles" class="pangolin toplink text-light px-2 h3">spectacles</a>
-              <a href="albums_view" class="pangolin toplink text-light px-2 h3">paroles</a>
-              <a href="bio" class="pangolin toplink text-light px-2 h3">bio</a>
-              <a href="contact" class="pangolin toplink text-light px-2 h3">contact</a>
-          </div>
-          <div class="mobile-navbar" hidden>
-              <a href="https://open.spotify.com/artist/1lPYxiR7b6erngT38gZO7o" target="_blank" class="px-2"><i class="fab fa-spotify toplink text-light"></i></a>
-              <a href="https://www.youtube.com/@louvesaintjeu" target="_blank" class="px-2"><i class="fab fa-youtube toplink text-light"></i></a>
-              <a href="https://www.facebook.com/p/Louve-Saint-Jeu-100082762211638" target="_blank" class="px-2"><i class="fab fa-facebook toplink text-light"></i></a>
-              <a href="https://www.instagram.com/louvesaintjeu/" target="_blank" class="px-2"><i class="fab fa-instagram toplink text-light"></i></a>
-              <a href="https://louvesaintjeu.bandcamp.com/" target="_blank" class="px-2"><i class="fab fa-bandcamp toplink text-light"></i></a>
-          </div>
-          <div class="desktop-navbar" hidden>
-              <a href="/" class="pangolin toplink px-2 text-light h5">accueil</a>
-              <a href="spectacles" class="pangolin toplink px-2 text-light h5">spectacles</a>
-              <a href="albums_view" class="pangolin toplink px-2 text-light h5">paroles</a>
-              <a href="bio" class="pangolin toplink text-light px-2 h5">bio</a>
-              <a href="contact" class="pangolin toplink text-light px-2 h5">contact</a>
-          </div>
-          <div class="desktop-navbar" hidden>
-              <a href="https://open.spotify.com/artist/1lPYxiR7b6erngT38gZO7o" target="_blank" class="px-2"><i class="fab fa-spotify text-light toplink"></i></a>
-              <a href="https://www.youtube.com/@louvesaintjeu" target="_blank" class="px-2"><i class="fab fa-youtube text-light toplink"></i></i></a>
-              <a href="https://www.facebook.com/p/Louve-Saint-Jeu-100082762211638" target="_blank" class="px-2"><i class="fab fa-facebook text-light toplink"></i></a>
-              <a href="https://www.instagram.com/louvesaintjeu/" target="_blank" class="px-2"><i class="fab fa-instagram text-light toplink"></i></a>
-              <a href="https://louvesaintjeu.bandcamp.com/" target="_blank" class="px-2"><i class="fab fa-bandcamp toplink text-light"></i></a>
-          </div>
-    </nav>
+        <!-- Add your navigation links here -->
+            <div  class="mobile-navbar" hidden>
+                <!-- <a href="/" class="pangolin toplink px-2 h5">accueil</a> -->
+                <a href="/paroles" class="pangolin toplink px-3 h2 text-light">paroles</a>
+                <a href="/infolettre" class="pangolin toplink px-3 h2 text-light">infolaite</a>
+                <a href="/spectacles" class="pangolin toplink px-3 h2 text-light">pestacles</a>
+            </div>
+            <div class="mobile-navbar" hidden>
+              <a href="https://louvesaintjeu.bandcamp.com/" target="_blank" class="px-2"><i class="text-light fab fa-bandcamp toplink"></i></a>
+                <a href="https://open.spotify.com/artist/1lPYxiR7b6erngT38gZO7o" target="_blank" class="px-2"><i class="text-light fab fa-spotify toplink"></i></a>
+                <a href="https://www.youtube.com/@louvesaintjeu" target="_blank" class="px-2"><i class="text-light fab fa-youtube toplink"></i></a>
+                <a href="https://www.facebook.com/p/Louve-Saint-Jeu-100082762211638" target="_blank" class="px-2"><i class="text-light fab fa-facebook toplink"></i></a>
+                <a href="https://www.instagram.com/louvesaintjeu/" target="_blank" class="px-2"><i class="text-light fab fa-instagram toplink"></i></a>
+            </div>
+            <div class="desktop-navbar" hidden>
+                <a href="/" class="pangolin toplink px-2 h4 text-light">accueil</a>
+                <!-- <a href="/paroles" class="pangolin toplink px-2 h4 text-light">paroles</a> -->
+                <a href="/infolettre" class="pangolin toplink px-2 h4 text-light">infolaite</a>
+                <a href="/spectacles" class="pangolin toplink px-2 h4 text-light">pestacles</a>
+            </div>
+            <div class="desktop-navbar" hidden>
+                <a href="https://louvesaintjeu.bandcamp.com/" target="_blank" class="px-2"><i class="text-light fab fa-bandcamp toplink"></i></a>
+                <a href="https://open.spotify.com/artist/1lPYxiR7b6erngT38gZO7o" target="_blank" class="px-2"><i class="text-light fab fa-spotify toplink"></i></a>
+                <a href="https://www.youtube.com/@louvesaintjeu" target="_blank" class="px-2"><i class="text-light fab fa-youtube toplink"></i></i></a>
+                <a href="https://www.facebook.com/p/Louve-Saint-Jeu-100082762211638" target="_blank" class="px-2"><i class="text-light fab fa-facebook toplink"></i></a>
+                <a href="https://www.instagram.com/louvesaintjeu/" target="_blank" class="px-2"><i class="text-light fab fa-instagram toplink"></i></a>
+            </div>
+      </nav>
 
     <div class="container pt-5 montserrat">
 
         <br><br><br><br>
 
         <div class="container my-5" id="albums-container"></div>
-
-        <!-- {% for album in albums %}
-        {% with album_forloop_counter=forloop.counter %}
-        <div class="row justify-content-lg-center">
-            <div class="col-sm-5 col-md-6 col-lg-8">
-                <div class="row justify-content-lg-left text-light"><h5 class="font-weight-bold"><strong>{{ album.titre }}</strong></h5></div>
-            </div>
-        </div>
-        <div class="row d-lg-flex justify-content-lg-center pt-3 ">
-            <div class="col-lg-4 d-lg-flex justify-content-center align-items-lg-start mt-3 mb-4 px-5 p-md-5 text-center"><img class="img-fluid" src="{{ album.cover_image.url }}"/></div>
-            <div class="col-lg-4 bg-transparent border-0">
-
-                <div id="accordion-{{ album_forloop_counter }}" class="accordion bg-transparent border-0" role="tablist" >
-
-                  {% for chanson in album.chansons.all %}  
-                  {% with chanson_forloop_counter=forloop.counter %}
-                  <div class="accordion-item bg-transparent border-0 text-light">
-                      <h2 class="accordion-header bg-transparent text-light border-0" role="tab">
-                        <button class="accordion-button bg-transparent text-light border-0 collapsed" 
-                                type="button" style="text-decoration:none; box-shadow: none;"
-                                data-bs-toggle="collapse" data-bs-target="#accordion-{{ album_forloop_counter }} .item-{{ chanson_forloop_counter }}" aria-expanded="true" aria-controls="accordion-{{ album_forloop_counter }} .item-{{ chanson_forloop_counter }}">
-                                {{ chanson.titre }}
-                        </button>
-                        </h2>
-                      <div class="accordion-collapse collapse item-{{ chanson_forloop_counter }} bg-transparent text-light" role="tabpanel">
-                          <div class="accordion-body bg-transparent">
-                              {{ chanson.paroles|safe }}
-                          </div>
-                      </div>
-                  </div>
-                  {% endwith %}
-                  {% endfor %}
-
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center my-3 pb-3">
-          <div class="col-6">
-              <hr style="border-top: 2px solid white; border-bottom: none;">
-          </div>
-        </div>
-        {% endwith %}
-        {% endfor %} -->
         
     </div>
         
@@ -168,7 +123,7 @@
                     <div class="row justify-content-lg-center">
                         <div class="col-sm-5 col-md-6 col-lg-8">
                             <div class="row text-light">
-                                <h5 class="font-weight-bold"><strong>${album.titre}</strong></h5>
+                                <h4 class="font-weight-bold"><strong>${album.titre}</strong></h4>
                             </div>
                         </div>
                     </div>
@@ -204,9 +159,9 @@
                     })
 
                 return `
-                    <div class="accordion-item bg-transparent border-0 text-light">
+                    <div class="accordion-item bg-transparent border-0 text-light" style="font-size: larger;">
                         <h2 class="accordion-header bg-transparent text-light border-0" role="tab">
-                            <button class="accordion-button bg-transparent text-light border-0 collapsed" 
+                            <button class="accordion-button bg-transparent text-light border-0 collapsed"  style="font-size: 0.6em;"
                                     type="button" 
                                     data-bs-toggle="collapse" 
                                     data-bs-target="#accordion-${albumIndex} .item-${chansonIndex}" 

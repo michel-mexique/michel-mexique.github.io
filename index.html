@@ -50,9 +50,37 @@
     </script>
 
 
-
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-between px-5 py-3" id="navbar">
+  <!-- Add your navigation links here -->
+      <div  class="mobile-navbar" hidden>
+          <!-- <a href="/" class="pangolin toplink px-2 h5">accueil</a> -->
+          <a href="/paroles" class="pangolin toplink px-2 h2">paroles</a>
+          <a href="/infolettre" class="pangolin toplink px-2 h2">infolaite</a>
+          <a href="/spectacles" class="pangolin toplink px-2 h2">pestacles</a>
+      </div>
+      <div class="mobile-navbar" hidden>
+        <a href="https://louvesaintjeu.bandcamp.com/" target="_blank" class="px-2"><i class="fab fa-bandcamp toplink"></i></a>
+          <a href="https://open.spotify.com/artist/1lPYxiR7b6erngT38gZO7o" target="_blank" class="px-2"><i class="fab fa-spotify toplink"></i></a>
+          <a href="https://www.youtube.com/@louvesaintjeu" target="_blank" class="px-2"><i class="fab fa-youtube toplink"></i></a>
+          <a href="https://www.facebook.com/p/Louve-Saint-Jeu-100082762211638" target="_blank" class="px-2"><i class="fab fa-facebook toplink"></i></a>
+          <a href="https://www.instagram.com/louvesaintjeu/" target="_blank" class="px-2"><i class="fab fa-instagram toplink"></i></a>
+      </div>
+      <div class="desktop-navbar" hidden>
+          <!-- <a href="/" class="pangolin toplink px-2 h5">accueil</a> -->
+          <a href="/paroles" class="pangolin toplink px-3 h4">paroles</a>
+          <a href="/infolettre" class="pangolin toplink px-3 h4">infolaite</a>
+          <a href="/spectacles" class="pangolin toplink px-3 h4">pestacles</a>
+      </div>
+      <div class="desktop-navbar" hidden>
+          <a href="https://louvesaintjeu.bandcamp.com/" target="_blank" class="px-2"><i class="fab fa-bandcamp toplink"></i></a>
+          <a href="https://open.spotify.com/artist/1lPYxiR7b6erngT38gZO7o" target="_blank" class="px-2"><i class="fab fa-spotify toplink"></i></a>
+          <a href="https://www.youtube.com/@louvesaintjeu" target="_blank" class="px-2"><i class="fab fa-youtube toplink"></i></i></a>
+          <a href="https://www.facebook.com/p/Louve-Saint-Jeu-100082762211638" target="_blank" class="px-2"><i class="fab fa-facebook toplink"></i></a>
+          <a href="https://www.instagram.com/louvesaintjeu/" target="_blank" class="px-2"><i class="fab fa-instagram toplink"></i></a>
+      </div>
+</nav>
+<!-- 
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-between px-5 py-3" id="navbar">
-    <!-- Add your navigation links here -->
     <div>
       <a href="" class="pangolin toplink px-2">accueil</a>
       <a href="/paroles" class="pangolin toplink px-2">paroles</a>
@@ -66,7 +94,7 @@
       <a href="https://www.facebook.com/p/Louve-Saint-Jeu-100082762211638" target="_blank" class="px-2"><i class="fab fa-facebook toplink"></i></a>
       <a href="https://www.instagram.com/louvesaintjeu/" target="_blank" class="px-2"><i class="fab fa-instagram toplink"></i></a>
     </div>
-  </nav>
+  </nav> -->
 
   <div class="container">
 
@@ -95,6 +123,20 @@
     </div>
   </div>
   </div>
+  <script>
+      // Check if the user is on a mobile device
+      if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+          // Show all elements with the class 'mobile-navbar'
+          document.querySelectorAll('.mobile-navbar').forEach(element => {
+              element.hidden = false;
+          });
+      } else {
+          // Show all elements with the class 'desktop-navbar'
+          document.querySelectorAll('.desktop-navbar').forEach(element => {
+              element.hidden = false;
+          });
+      }
+  </script>
   <!-- Include Bootstrap JS (jQuery is required) -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
