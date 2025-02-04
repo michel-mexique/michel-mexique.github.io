@@ -1,45 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Louve Saint-Jeu</title>
+  <title>Fixed Background Image</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <link rel="icon" type="image/x-icon" href="images/louve_logo.ico">
-  <!-- Add Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+  body {
+      background-image: url("images/background.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: top center;
+      transition: background-color 0.5s ease; /* Add transition for smooth color change */
+    }
+  </style>
 </head>
-<body style="background-color: rgb(30,30,30);">
-  <div class="container pt-5">
+<body>
 
-    <div class="row justify-content-center">
-      <div class="col-md-4 pt-5">
-        <div class="image-container">
-          <img src="images/louve_nom_blanc.png" class="img-fluid" alt="Image" />
-        </div>
-      </div>
+
+    <div id="overlay"></div>
+
+    <script>
+
+        window.addEventListener('scroll', function() {
+          var height = window.innerHeight;
+            var overlay = document.getElementById('overlay');
+            //var page_buffer = document.getElementById('page_buffer');
+            var navbars = document.querySelectorAll('.toplink');
+            var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            var scrollPercentage = (scrollTop / height) * 100;
+            var opacity = scrollTop / height;
+
+            overlay.style.opacity = opacity;
+
+            //document.getElementById("page_buffer").style.marginTop = "50px";
+
+            navbars.forEach(function(navbar) {
+                if (scrollPercentage > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-between px-5 py-3" id="navbar">
+    <!-- Add your navigation links here -->
+    <div>
+      <a href="https://www.youtube.com" class="pangolin toplink px-2">accueil</a>
+      <a href="#spectacles" class="pangolin toplink px-2">paroles</a>
+      <a href="#spectacles" class="pangolin toplink px-2">liste d'envoi</a>
+      <a href="https://www.youtube.com" class="pangolin toplink px-2">spectacles</a>
+    </div>
+    <div>
+      <a href="https://louvesaintjeu.bandcamp.com/" target="_blank" class="px-2"><i class="fab fa-bandcamp toplink"></i></a>
+      <a href="https://open.spotify.com/artist/1lPYxiR7b6erngT38gZO7o" target="_blank" class="px-2"><i class="fab fa-spotify toplink"></i></a>
+      <a href="https://www.youtube.com/@louvesaintjeu" target="_blank" class="px-2"><i class="fab fa-youtube toplink"></i></a>
+      <a href="https://www.facebook.com/p/Louve-Saint-Jeu-100082762211638" target="_blank" class="px-2"><i class="fab fa-facebook toplink"></i></a>
+      <a href="https://www.instagram.com/louvesaintjeu/" target="_blank" class="px-2"><i class="fab fa-instagram toplink"></i></a>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div id="arrival_content" style="flex: 1 0 auto;" >
+    <div class="row justify-content-center pt-5" id="top_logo">
+    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+    		<img src="images/louve_nom.png" class="img-fluid center-block d-block mx-auto" alt="Logo">
+    	</div>
     </div>
 
-    <div class="row justify-content-center py-4">
-      <div class="col-md-6">
-        <div class="image-container">
-          <img src="images/a_bientot.jpg" class="img-fluid" alt="Image" />
-        </div>
-      </div>
-    </div>
+    <div class="row justify-content-center py-5 fixed-bottom" id="boutons">
+      <div class="col col-lg-2 mx-3">
+     </div>
 
-    <div class="row justify-content-center">
-      <div class="col-md-6 pt-5">
-        <div class="">
-          <h5 class="text-light text-center pangolin">À bientôt ! :)<h5>
-        </div>
+    	<div class="col col-lg-2 mx-3">
+	       <button type="button" class="btn btn-outline-light btn-block pangolin rounded-0">paroles</button>
+	    </div>
+      <div class="col col-lg-2 mx-3">
+        <button type="button" class="btn btn-outline-light btn-block pangolin rounded-0">liste d'envoi</button>
+      </div>
+      <div class="col col-lg-2 mx-3">
+          <button type="button" class="btn btn-outline-light btn-block pangolin rounded-0">spectacles</button>
+      </div>
+      <div class="col col-lg-2 mx-3">
       </div>
     </div>
-    <br><br><br>
   </div>
-
+  </div>
   <!-- Include Bootstrap JS (jQuery is required) -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
-
