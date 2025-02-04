@@ -26,6 +26,28 @@
         {
           "titre": "Guérison",
           "paroles": "textes/douceur/guerison.md"
+        },
+        {
+          "titre": "Catharsis",
+          "paroles": "textes/douceur/catharsis.md"
+        },
+        {
+          "titre": "Automne",
+          "paroles": "textes/douceur/automne.md"
+        },
+        {
+          "titre": "This harsh world",
+          "paroles": "textes/douceur/this-harsh-world.md"
+        }
+      ]
+    },
+    {
+      "titre": "Pourquoi tu pleures encore?",
+      "cover_image": "covers/pqtpe.jpg",
+      "chansons": [
+        {
+          "titre": "Pourquoi tu pleures encore?",
+          "paroles": "textes/pqtpe/pqtpe.md"
         }
       ]
     }
