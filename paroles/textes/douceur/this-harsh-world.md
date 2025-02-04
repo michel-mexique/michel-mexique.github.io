@@ -5,29 +5,29 @@ And when you talk\
 Do you take the time to look around and breathe
 
 L'odeur des feuilles qui bougent sens\
-Et tous les arbres sont rouges sang\
+Et tous les arbres sont rouges sang
 
 Dans la brise je frissonne\
 Pour ma chanson d'automne\
 Je n'ai pas tout à fait froid\
 Et le vent chante avec moi
 
-"Aaah.."\
+"Aaah.."
 
 Look at the sun that's rising\
 And in your face de bise is\
 Caressing your smile\
-While we face the horizon's profile\
+While we face the horizon's profile
 
 Et les montagnes sont rousse elles\
-semblent tapissées de mousse\
+semblent tapissées de mousse
 
 Dans la brise je frissonne\
 Pour ma chanson d'automne\
 Je n'ai pas tout à fait froid\
-Et le vent chante avec moi\
+Et le vent chante avec moi
 
-"Aaah.."\
+"Aaah.."
 
 Look at the burning sky\
 Look at the stars in my eyes
