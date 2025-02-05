@@ -96,10 +96,10 @@
     </div>
   </nav> -->
 
-  <div class="container">
+  <div class="container" id="arrival_content_container">
 
     <div id="arrival_content" style="flex: 1 0 auto;" >
-    <div class="row justify-content-center pt-5" id="top_logo">
+    <div class="row justify-content-center pt-4" id="top_logo">
     	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
     		<img src="images/louve_nom.png" class="img-fluid center-block d-block mx-auto" alt="Logo">
     	</div>
@@ -124,19 +124,23 @@
   </div>
   </div>
   <script>
-      // Check if the user is on a mobile device
-      if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-          // Show all elements with the class 'mobile-navbar'
-          document.querySelectorAll('.mobile-navbar').forEach(element => {
-              element.hidden = false;
-          });
+    if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+        // Show all elements with the class 'mobile-navbar'
+        document.querySelectorAll('.mobile-navbar').forEach(element => {
+            element.hidden = false;
+        });
+        document.getElementById('arrival_content_container').classList.remove('container');
+        document.getElementById('arrival_content_container').classList.add('container-fluid');
+        document.getElementById('arrival_content_container').classList.add('mt-5');
+
       } else {
-          // Show all elements with the class 'desktop-navbar'
-          document.querySelectorAll('.desktop-navbar').forEach(element => {
-              element.hidden = false;
-          });
-      }
-  </script>
+        // Show all elements with the class 'desktop-navbar'
+        document.querySelectorAll('.desktop-navbar').forEach(element => {
+            element.hidden = false;
+        });
+    }
+</script>
+  
   <!-- Include Bootstrap JS (jQuery is required) -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
