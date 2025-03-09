@@ -1,59 +1,33 @@
-Tu n'as rien de grave\
-non je te jure que tu n'as rien à te reprocher\
-tu n'as rien de grave\
-tu peux peut-être commencer par manger
+Look at the burning sky\
+Look at the flames in my eyes\
+And when you walk it's crackling under your feet\
+And when you talk\
+Do you take the time to look around and breathe
 
-Manger, manger tout le silence\
-Manger, et la désespérance\
-Manger, pour dénouer le noeud\
-Manger, pour rallumer le feu
+L'odeur des feuilles qui bougent sens\
+Et tous les arbres sont rouges sang
 
+Dans la brise je frissonne\
+Pour ma chanson d'automne\
+Je n'ai pas tout à fait froid\
+Et le vent chante avec moi
 
-Tu n'as rien de grave\
-non je te jure que tu n'as rien à te reprocher\
-tu n'as rien de grave\
-tu peux enfin t'abandonner à pleurer
+"Aaah.."
 
+Look at the sun that's rising\
+And in your face de bise is\
+Caressing your smile\
+While we face the horizon's profile
 
-Pleurer, pleurer la confiance\
-Laisser couler, la mort de ton enfance\
-Pleurer, pour remplacer les mots\
-Pleurer, chaque petit morceau
+Et les montagnes sont rousse elles\
+semblent tapissées de mousse
 
+Dans la brise je frissonne\
+Pour ma chanson d'automne\
+Je n'ai pas tout à fait froid\
+Et le vent chante avec moi
 
-Tu n'as rien de grave\
-non je te jure que tu n'as rien à te reprocher\
-tu n'as rien de grave\
-et c'est à ton tour de raconter
+"Aaah.."
 
-
-Murmurer, à tout ceux qui t'aiment\
-Parler, à tous ceux qui l'aiment\
-Crier, pour que les sourds entendent\
-Chanter, pour les faire tous comprendre
-
-que
-
-
-Tu as trop de grave\
-mais je te jure que tu n'as rien à te reprocher\
-tu as trop de grave\
-et même si tu tentes d'oublier
-
-
-Jamais il ne partira\
-Jamais il ne disparaîtra\
-Jamais, mais ça ira mieux\
-Et je te jure mille bonheurs fiévreux
-
-
-Tu es pleine de grave\
-mais je te jure que tu n'as rien à te reprocher\
-tu es pleine de grave
-
-
-tu es pleine de grave\
-et c'est trop lourd\
-trop lourd\
-trop lourd\
-Et ça s'envole tranquillement
+Look at the burning sky\
+Look at the stars in my eyes
