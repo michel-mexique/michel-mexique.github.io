@@ -1,33 +1,30 @@
-Look at the burning sky\
-Look at the flames in my eyes\
-And when you walk it's crackling under your feet\
-And when you talk\
-Do you take the time to look around and breathe
+Come here, come here with your blue landscapes\
+Come here, come here come here and we'll escape
 
-L'odeur des feuilles qui bougent sens\
-Et tous les arbres sont rouges sang
+This harsh world this harsh world\
+This harsh world this harsh world
 
-Dans la brise je frissonne\
-Pour ma chanson d'automne\
-Je n'ai pas tout à fait froid\
-Et le vent chante avec moi
+And in my arms you'll find\
+what you've been looking for\
+And in my arms you'll find\
+love
 
-"Aaah.."
+In this harsh world this harsh world\
+This harsh world this harsh world
 
-Look at the sun that's rising\
-And in your face de bise is\
-Caressing your smile\
-While we face the horizon's profile
+And I'll give you all the tender you might need\
+And I'll give myself to you, away from all\
+the greed
 
-Et les montagnes sont rousse elles\
-semblent tapissées de mousse
+Of this harsh world this harsh world\
+This harsh world this harsh world
 
-Dans la brise je frissonne\
-Pour ma chanson d'automne\
-Je n'ai pas tout à fait froid\
-Et le vent chante avec moi
+And I'll spend the night staring at the\
+stars in your eyes\
+And we'll spend the night\
+Going further and further and further and further
 
-"Aaah.."
-
-Look at the burning sky\
-Look at the stars in my eyes
+From this harsh word this harsh world\
+This harsh world this harsh world\
+And in the great unknown\
+We'll make our own
